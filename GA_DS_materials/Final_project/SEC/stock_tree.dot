@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="gross_margin <= 0.0171\ngini = 0.2289\nsamples = 531\nvalue = [461, 70]"] ;
+1 [label="operating_margin <= 0.8425\ngini = 0.1584\nsamples = 369\nvalue = [337, 32]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="deferred_liability_charges <= 0.5962\ngini = 0.1424\nsamples = 363\nvalue = [335, 28]"] ;
+1 -> 2 ;
+3 [label="gini = 0.1188\nsamples = 347\nvalue = [325, 22]"] ;
+2 -> 3 ;
+4 [label="gini = 0.4688\nsamples = 16\nvalue = [10, 6]"] ;
+2 -> 4 ;
+5 [label="income_tax <= 3.4938\ngini = 0.4444\nsamples = 6\nvalue = [2, 4]"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 4\nvalue = [0, 4]"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+5 -> 7 ;
+8 [label="other_current_liabilities <= 0.0847\ngini = 0.3591\nsamples = 162\nvalue = [124, 38]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="net_cash_flow-operating <= -0.9961\ngini = 0.2578\nsamples = 125\nvalue = [106, 19]"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+9 -> 10 ;
+11 [label="gini = 0.2382\nsamples = 123\nvalue = [106, 17]"] ;
+9 -> 11 ;
+12 [label="net_borrowings <= -0.4381\ngini = 0.4996\nsamples = 37\nvalue = [18, 19]"] ;
+8 -> 12 ;
+13 [label="gini = 0.3047\nsamples = 16\nvalue = [13, 3]"] ;
+12 -> 13 ;
+14 [label="gini = 0.3628\nsamples = 21\nvalue = [5, 16]"] ;
+12 -> 14 ;
+}

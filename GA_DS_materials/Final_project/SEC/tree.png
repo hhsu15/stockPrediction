@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="earnings_before_interest_and_tax <= -0.8457\ngini = 0.2261\nsamples = 708\nvalue = [616, 92]"] ;
+1 [label="net_borrowings <= -0.0142\ngini = 0.4928\nsamples = 25\nvalue = [14, 11]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="income_tax <= -0.1075\ngini = 0.3878\nsamples = 19\nvalue = [14, 5]"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 13\nvalue = [13, 0]"] ;
+2 -> 3 ;
+4 [label="gini = 0.2778\nsamples = 6\nvalue = [1, 5]"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 6\nvalue = [0, 6]"] ;
+1 -> 5 ;
+6 [label="total_assets <= 0.1017\ngini = 0.2091\nsamples = 683\nvalue = [602, 81]"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="net_borrowings <= 86.0341\ngini = 0.1598\nsamples = 514\nvalue = [469, 45]"] ;
+6 -> 7 ;
+8 [label="gini = 0.1539\nsamples = 512\nvalue = [469, 43]"] ;
+7 -> 8 ;
+9 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+7 -> 9 ;
+10 [label="after_tax_roe <= 0.151\ngini = 0.3353\nsamples = 169\nvalue = [133, 36]"] ;
+6 -> 10 ;
+11 [label="gini = 0.2268\nsamples = 115\nvalue = [100, 15]"] ;
+10 -> 11 ;
+12 [label="gini = 0.4753\nsamples = 54\nvalue = [33, 21]"] ;
+10 -> 12 ;
+}
