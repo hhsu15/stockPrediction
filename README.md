@@ -6,8 +6,8 @@ The primary goal is to build a machine learning model that can predict if a stoc
 - New York Stock Exchange S&P 500 companies historical prices with fundamental data
 - URL: https://www.kaggle.com/dgawlik/nyse
 - There are 4 csv files in this dataset
-* Fundamentals - fundamentals data for S&P 500 companies from 2011 - 2016
-* Prices - Daily prices from 2011 - 2016 for the same companies
-* Split-Adjusted Prices - Prices data as above but adjusted for shares splits
-* Securities - Company information including company name, sector, address# stockPrediction
+  - Fundamentals - fundamentals data for S&P 500 companies from 2011 - 2016
+  - Prices - Daily prices from 2011 - 2016 for the same companies
+  - Split-Adjusted Prices - Prices data as above but adjusted for shares splits
+  - Securities - Company information including company name, sector, address# stockPrediction
   
