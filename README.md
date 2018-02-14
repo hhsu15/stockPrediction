@@ -1,6 +1,7 @@
 # Stock Predictive Mode
+Machine Learning project
 ## Goal
-The primary goal is to build a machine learning model that can predict if a stock's price is likely to go up given the variables of fundamentals data. I     am tackling this as a binary classification problem in that we predict either the next year price is likely to go up or not.
+The primary goal is to build a machine learning model that can predict if a stock's price is likely to go up given the variables of fundamentals data. I am tackling this as a binary classification problem in that we predict either the next year price is likely to go up or not.
 ## Dataset
 - New York Stock Exchange S&P 500 companies historical prices with fundamental data
 - URL: https://www.kaggle.com/dgawlik/nyse
