@@ -11,3 +11,5 @@ The primary goal is to build a machine learning model that can predict if a stoc
   - Split-Adjusted Prices - Prices data as above but adjusted for shares splits
   - Securities - Company information including company name, sector, address# stockPrediction
   
+## Slideshow
+Click [here](https://hhsu15.github.io/stockPrediction/#/) to see the slideshow
